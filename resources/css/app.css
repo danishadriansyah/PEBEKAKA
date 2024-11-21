@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Condensed&display=swap");
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.judul {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-item {
+  font-size: 18px;
+}
+
+.nav-link {
+  color: white;
+}
+
+footer {
+  background-color: rgb(10, 41, 8);
+  height: 150px;
+  text-align: center;
+}
+
+footer p {
+  color: white;
+  margin-bottom: 0px;
+  padding-top: 30px;
+}
+
