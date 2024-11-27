@@ -17,6 +17,59 @@
             width: 100px; /* Ukuran gambar */
             height: auto;
         }
+        .navbar {
+            background-color: #ff5722;
+        }
+        .navbar-brand {
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+            display: flex;
+            align-items: center;
+        }
+        .navbar-brand img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+        .nav-link {
+            color: white !important;
+        }
+        .carousel-item img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .product-item {
+            flex: 1 1 calc(33.333% - 15px);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            background-color: white;
+        }
+        .product-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .product-item p {
+            margin: 10px 0 0;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .search-bar {
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>

@@ -59,7 +59,10 @@
         padding: 10px 0;
       }
       .search-bar {
-        margin-top: 10px;
+        flex-grow: 1;
+      }
+      .search-bar input {
+        width: 100%;
       }
     </style>
   </head>
@@ -80,26 +83,23 @@
               <li class="nav-item">
                 <a class="nav-link" href="{{ route('category.index') }}">Kategori</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Ker">Keranjang</a>
-              </li>
+              <form class="d-flex search-bar">
+                <input class="form-control me-2" type="search" placeholder="Cari apa sih..." aria-label="Search" />
+                <button class="btn btn-danger" type="submit">Search</button>
+              </form>
               <li class="nav-item">
                 <a class="nav-link" href="{{ route('register') }}">Register</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="{{ route('dashboard') }}">Login</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Ker">Keranjang</a>
+              </li>
             </ul>
           </div>
         </div>
       </nav>
-      <!----------Search Bar---------->
-      <div class="container search-bar">
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Cari apa sih..." aria-label="Search" style="width: 100%;" />
-          <button class="btn btn-danger" type="submit">Search</button>
-        </form>
-      </div>
       <!--------------Carousel----------------------->
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">

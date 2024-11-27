@@ -6,10 +6,37 @@
     <title>Register</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .card {
+            width: 100%;
+            max-width: 400px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            background-color: white;
+        }
+        .text-primary {
+            color: #ff5722 !important;
+        }
+        .btn-primary {
+            background-color: #ff5722;
+            border-color: #ff5722;
+        }
+        .btn-primary:hover {
+            background-color: #e64a19;
+            border-color: #e64a19;
+        }
+    </style>
 </head>
-<body class="bg-light d-flex justify-content-center align-items-center vh-100">
+<body>
 
-    <div class="card shadow p-4" style="width: 100%; max-width: 400px;">
+    <div class="card">
         <!-- Form Header -->
         <h3 class="text-center mb-3 fw-bold text-primary">Sign Up</h3>
         <p class="text-center text-muted mb-4">Create an account to get started</p>
